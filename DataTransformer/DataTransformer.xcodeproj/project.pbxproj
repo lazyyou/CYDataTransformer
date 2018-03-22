@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D62F37B206345FC00F52BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D62F37A206345FC00F52BA8 /* AppDelegate.swift */; };
+		1D62F37D206345FC00F52BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D62F37C206345FC00F52BA8 /* ViewController.swift */; };
+		1D62F37F206345FC00F52BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D62F37E206345FC00F52BA8 /* Assets.xcassets */; };
+		1D62F39020634B4E00F52BA8 /* CYCharacterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D62F38F20634B4E00F52BA8 /* CYCharacterUtil.m */; };
+		1D62F3942063512C00F52BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D62F3932063512C00F52BA8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D62F377206345FC00F52BA8 /* DataTransformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataTransformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D62F37A206345FC00F52BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D62F37C206345FC00F52BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D62F37E206345FC00F52BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D62F383206345FC00F52BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D62F384206345FC00F52BA8 /* DataTransformer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataTransformer.entitlements; sourceTree = "<group>"; };
+		1D62F38D20634B4E00F52BA8 /* DataTransformer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataTransformer-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D62F38E20634B4E00F52BA8 /* CYCharacterUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYCharacterUtil.h; sourceTree = "<group>"; };
+		1D62F38F20634B4E00F52BA8 /* CYCharacterUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYCharacterUtil.m; sourceTree = "<group>"; };
+		1D62F3932063512C00F52BA8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D62F374206345FC00F52BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D62F36E206345FC00F52BA8 = {
+			isa = PBXGroup;
+			children = (
+				1D62F379206345FC00F52BA8 /* DataTransformer */,
+				1D62F378206345FC00F52BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D62F378206345FC00F52BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F377206345FC00F52BA8 /* DataTransformer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D62F379206345FC00F52BA8 /* DataTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F38B2063479500F52BA8 /* AppDelegate */,
+				1D62F38A2063477600F52BA8 /* Modules */,
+				1D62F38C20634AAC00F52BA8 /* Utils */,
+				1D62F39120634E1C00F52BA8 /* Config */,
+				1D62F39220634EE600F52BA8 /* Resources */,
+			);
+			path = DataTransformer;
+			sourceTree = "<group>";
+		};
+		1D62F38A2063477600F52BA8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F37C206345FC00F52BA8 /* ViewController.swift */,
+				1D62F3932063512C00F52BA8 /* Main.storyboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1D62F38B2063479500F52BA8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F37A206345FC00F52BA8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1D62F38C20634AAC00F52BA8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F38E20634B4E00F52BA8 /* CYCharacterUtil.h */,
+				1D62F38F20634B4E00F52BA8 /* CYCharacterUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1D62F39120634E1C00F52BA8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F383206345FC00F52BA8 /* Info.plist */,
+				1D62F384206345FC00F52BA8 /* DataTransformer.entitlements */,
+				1D62F38D20634B4E00F52BA8 /* DataTransformer-Bridging-Header.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1D62F39220634EE600F52BA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D62F37E206345FC00F52BA8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D62F376206345FC00F52BA8 /* DataTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D62F387206345FC00F52BA8 /* Build configuration list for PBXNativeTarget "DataTransformer" */;
+			buildPhases = (
+				1D62F373206345FC00F52BA8 /* Sources */,
+				1D62F374206345FC00F52BA8 /* Frameworks */,
+				1D62F375206345FC00F52BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataTransformer;
+			productName = DataTransformer;
+			productReference = 1D62F377206345FC00F52BA8 /* DataTransformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D62F36F206345FC00F52BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = " 阿友哥";
+				TargetAttributes = {
+					1D62F376206345FC00F52BA8 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D62F372206345FC00F52BA8 /* Build configuration list for PBXProject "DataTransformer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D62F36E206345FC00F52BA8;
+			productRefGroup = 1D62F378206345FC00F52BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D62F376206345FC00F52BA8 /* DataTransformer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D62F375206345FC00F52BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D62F37F206345FC00F52BA8 /* Assets.xcassets in Resources */,
+				1D62F3942063512C00F52BA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D62F373206345FC00F52BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D62F37D206345FC00F52BA8 /* ViewController.swift in Sources */,
+				1D62F39020634B4E00F52BA8 /* CYCharacterUtil.m in Sources */,
+				1D62F37B206345FC00F52BA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D62F385206345FC00F52BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D62F386206345FC00F52BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1D62F388206345FC00F52BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DataTransformer/Config/DataTransformer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EQED79L5X2;
+				INFOPLIST_FILE = DataTransformer/Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-dewin.DataTransformer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataTransformer/Config/DataTransformer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1D62F389206345FC00F52BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DataTransformer/Config/DataTransformer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EQED79L5X2;
+				INFOPLIST_FILE = DataTransformer/Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-dewin.DataTransformer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataTransformer/Config/DataTransformer-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D62F372206345FC00F52BA8 /* Build configuration list for PBXProject "DataTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D62F385206345FC00F52BA8 /* Debug */,
+				1D62F386206345FC00F52BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D62F387206345FC00F52BA8 /* Build configuration list for PBXNativeTarget "DataTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D62F388206345FC00F52BA8 /* Debug */,
+				1D62F389206345FC00F52BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D62F36F206345FC00F52BA8 /* Project object */;
+}
